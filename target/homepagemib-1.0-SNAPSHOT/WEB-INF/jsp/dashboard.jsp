@@ -4,15 +4,11 @@
 
 <html>
 <head>
-<!-- JQuery CSS -->
-<link rel="stylesheet" type="text/css" href="external/jqueryui/jquery-ui.css">
-<!-- Project CSS -->
-<link rel="stylesheet" type="text/css" href="css/mibUser.css">
 
-<!-- JQuery Libs -->
-<script src="/external/jquery/jquery.js"></script>
-<script src="/external/jqueryui/jquery-ui.js"></script>
-<!-- Project Libs -->
+<link href="css/mibUser.css" rel="stylesheet" type="text/css" >
+<link href="http://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel="stylesheet">
+<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+<script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
 <script src="/js/dashboard.js"></script>
 <script src="/js/sms/functions.js"></script>
 
