@@ -1,6 +1,6 @@
 /target/
 /eclipse-launch-profiles/
 
-*.classpath
-*.project
-*.settings
+.classpath
+.project
+.settings
