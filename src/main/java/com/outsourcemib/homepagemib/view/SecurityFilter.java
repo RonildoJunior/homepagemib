@@ -31,7 +31,8 @@ public class SecurityFilter implements Filter {
         Object user = request.getSession().getAttribute(ConstantsOfSystem.USER_SESSION_KEY);
         String resource = request.getRequestURI().replaceAll(request.getContextPath(), "");
         
-        logger.info("Security filter: "+ resource);
+        logger.info("RequestURI: "+ request.getRequestURI());
+        logger.info("ContextPath: "+ request.getContextPath());
         
         if( ConstantsOfSystem.pages.contains(resource)){
         	logger.log(Level.INFO, "access granted: " + resource);

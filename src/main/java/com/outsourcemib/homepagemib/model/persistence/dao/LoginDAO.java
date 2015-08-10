@@ -36,6 +36,7 @@ public class LoginDAO {
 			login.setPhone( entity.getProperty("phone") == null ? null : (String)entity.getProperty("phone"));
 			return login;
 		}catch(EntityNotFoundException ex){
+			ex.printStackTrace();
 			return null;
 		}
 	}

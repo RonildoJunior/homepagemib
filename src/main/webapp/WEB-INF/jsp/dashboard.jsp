@@ -1,22 +1,16 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
-<%@taglib uri="http://www.springframework.org/tags/form" prefix="form"%>
-<%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
-
 <html>
 <head>
-<!-- JQuery CSS -->
 <link rel="stylesheet" type="text/css" href="external/jqueryui/jquery-ui.css">
+<link rel="stylesheet" type="text/css" href="stylesheet/main.css">
 
-<!-- Project CSS -->
-<link rel="stylesheet" type="text/css" href="css/mibUser.css">
-
-<!-- JQuery Libs -->
 <script src="/external/jquery/jquery.js"></script>
 <script src="/external/jqueryui/jquery-ui.js"></script>
-
-<!-- Project Libs -->
 <script src="/js/dashboard.js"></script>
 <script src="/js/sms/functions.js"></script>
+
+<script src="//use.typekit.net/ixj1bwp.js"></script>
+<script>try{Typekit.load({ async: true });}catch(e){}</script>
+
 
 </head>
 <body>
